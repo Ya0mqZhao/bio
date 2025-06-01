@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .navbar {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+            height: 80px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 20px 30px;
+            display: block;
+            text-align: center;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+        }
+
+        /* Page Content */
+        .content {
+            padding: 100px 20px 20px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+	<style>
+	.image-link-wrapper {
+      position: relative;
+      display: inline-block;
+    }
+
+    .tooltip {
+      visibility: hidden;
+      width: max-content;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 10px;
+      padding: 8px;
+      position: absolute;
+      bottom: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+      white-space: nowrap;
+      font-size: 14px;
+    }
+
+    .tooltip::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -6px;
+      border-width: 6px;
+      border-style: solid;
+      border-color: #333 transparent transparent transparent;
+    }
+
+    .image-link-wrapper:hover .tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .image-link-wrapper img {
+      width: 400px;
+      border-radius: 8px;
+    }
+	</style>
+</head>
+<body>
+<div class="navbar">
+    <a href="#about">Introduction</a>
+    <a href="#Academic-record">Academic Record</a>
+	<a href="tools">Useful Tools</a>
+    <a href="#contact">Contact</a>
+</div>
+<div class="content" id="about">
+    <h2>Introduction</h2>
+    <p>Hello!! My name is Manqi, with my name, you may know that I'm from China. I came to The USA when I was 8 years old, located at: Seattle WA 📍 and I'm currently still a highschooler. An multiple times verified INTP-T personality. I'm pretty much a self driven coder, I wouldn't call my self an expert but I could write simple things using JS, HTML, CSS, and Python. </p>
+	<p>Where life been: </p>
+	<iframe src="https://www.google.com/maps/d/u/3/embed?mid=1DuQn_25X9yMfgboOwDEmmFCykcEXXQ4&ehbc=2E312F&noprof=1" width="650" height="300"></iframe>
+	<p>*Points are click-able and added introducition*</p>
+</div>
+
+<div class="content" id="Academic-record">
+    <h2>Academic record</h2>
+    <p>Across many programs I've figured for my self below are the ones I went for the summer:</p>
+	<p>Freshmen:</p>
+  <a href="https://tech.seas.harvard.edu/summer" target="_blank" class="image-link-wrapper">
+    <span class="tooltip">tech.seas.harvard.edu</span>
+    <img src="https://i.imgur.com/pyn1kb8.png" alt="Clickable Image">
+  </a>
+  <p>*For colleges/uni looking for my transcript please contact me for further assist this is for social bio*</p>
+</div>
+<div class="content" id="tools">
+	<h2>Useful tools</h2>
+	<p>to be written - I forsee my self in writing more cool stuff :)</p>
+<div class="content" id="contact">
+    <h2>Contact</h2>
+    <p>Email:<a href="https://mail.google.com/mail/?view=cm&to=yao1mqz@gmail.com" target="_blank">Yao1mqz@gmail.com</a></p>
+	<p>Instagram:<a href="https://www.instagram.com/yao.mqzhao/" target="_blank">Yao.mqzhao</a></p>
+</div>
+
+</body>
+</html>
+
